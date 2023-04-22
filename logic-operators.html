@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operators</title>
+</head>
+<body>
+    
+    
+    <script defer>
+        "use strict";
+
+        let days = prompt("Enter the day");
+
+        if (days == "Saturday" || days == "Sunday") {
+            alert("Is Weekend");
+        }else
+        {
+            alert("Is working day");
+        }
+
+        
+        let time = prompt("Enter the time");
+
+        if (time == 8 || time > 10) {
+            alert("closed!");
+        }else {
+            alert("Open!");
+        }
+
+        var n = 23;
+        var n2 = 23;
+
+        if (n == n2 || n2 != n) {
+            alert("n is not equal to n2");
+        }else {
+            alert("n is equal to n2");
+        }
+        
+    </script>
+
+</body>
+</html>
