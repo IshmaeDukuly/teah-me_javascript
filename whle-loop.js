@@ -8,7 +8,8 @@ while (i < 100) {
     i++;
 }
 
-// Another loop starting here
+
+// print only even numbers
 
 let n = 0;
 
@@ -17,3 +18,4 @@ while (n <= 100) {
     n+=2;
 }
     
+
