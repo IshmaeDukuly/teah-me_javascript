@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Pass</title>
+</head>
+<body>
+    <h2>This is to know whether the user is an admin or not </h2>
+
+    <script defer>
+        "use strict";
+
+        let userName = prompt("who are you?");
+
+        if (userName === "Admin") {
+            let access = prompt("Password", '');
+
+            if (access === "TheKingdom") {
+                alert("Welcome");
+            }else if (access === '' || access === null){
+                alert("canceled"); 
+            } else {
+                alert ( "Bad zone");
+            }
+        }
+
+    </script>
+</body>
+</html>
